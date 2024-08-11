@@ -16,6 +16,7 @@ int main(){
     }
 
     cout<<"Server Program"<< endl;
+    SOCKET listenSocket = socket();
 
     WSACleanup();
 
